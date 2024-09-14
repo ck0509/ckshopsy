@@ -1,10 +1,11 @@
 import React from 'react'
+import Logo from "../../assets/logo.png";
 
 function Navbar() {
   return (<div>
      <div>upper  navbar </div>
      <div>
-      <a href="#"><img src="Logo" alt="Logo" /></a>
+      <a href="#"><img src={Logo} alt="Logo" /></a>
      </div>
 <div>lower navbar</div>
 
@@ -16,4 +17,3 @@ function Navbar() {
 
 export default Navbar
 
-// sana bir sey gostereyim.. devam

@@ -6,7 +6,7 @@ import Navbar from './components/Navbar/Navbar';
 function App() {
   
   return (
-    <div className='text-2xl text-green-600'>
+    <div className='bg-white dark:bg-gray-900 dark:text-white duration-200'>
       <Navbar />
     </div>
     )
